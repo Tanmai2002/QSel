@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+xmlns:tools="http://schemas.android.com/tools"
+
+android:layout_width="wrap_content"
+android:layout_height="wrap_content">
+
+
+
+
+
+<RelativeLayout
+
+    android:id="@+id/relativeLayoutParent"
+
+    android:layout_width="wrap_content"
+
+    android:layout_height="wrap_content"
+
+    tools:ignore="UselessParent"
+    android:orientation="vertical"
+
+    android:visibility="visible">
+
+
+
+
+    <!-- this is the collapsed layout -->
+<TextView
+    android:id="@+id/FwQno"
+    android:layout_width="wrap_content"
+    android:text="1"
+    android:textSize="30dp"
+    android:layout_height="wrap_content"
+/>
+    <RadioGroup
+        android:id="@+id/FwAnswers"
+        android:layout_below="@+id/FwQno"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+>
+
+    <RadioButton
+        android:id="@+id/Fw_a"
+        android:text="A"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+    />
+
+        <RadioButton
+            android:text="B"
+            android:id="@+id/Fw_b"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+
+
+        <RadioButton
+            android:id="@+id/Fw_c"
+            android:text="C"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+
+        <RadioButton
+            android:id="@+id/Fw_d"
+            android:text="D"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+
+</RadioGroup>
+
+<Button
+    android:id="@+id/FwNext"
+    android:layout_marginTop="20dp"
+    android:background="#3FC4AE"
+    android:layout_below="@+id/FwAnswers"
+
+    android:text="N"
+    android:layout_width="50dp"
+    android:layout_height="50dp"/>
+    <Button
+        android:id="@+id/FwPre"
+android:background="#3FC4AE"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/FwNext"
+        android:text="P"
+
+        android:layout_width="50dp"
+        android:layout_height="50dp"/>
+
+    <Button
+        android:id="@+id/FwSave"
+        android:background="#74E043"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/FwPre"
+        android:text="S"
+
+        android:layout_width="50dp"
+        android:layout_height="50dp"/>
+    <TextView
+        android:id="@+id/Fw_doubt"
+        android:layout_width="40dp"
+        android:layout_below="@+id/FwSave"
+        android:text="Z"
+        android:textSize="30dp"
+        android:layout_height="wrap_content"
+        />
+
+
+</RelativeLayout>
+
+</FrameLayout>
