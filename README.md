@@ -5,10 +5,6 @@ It provides floating window while solving that is used to mark ans, mark doubtfu
 
 ![Screenshot](./Images/img.png)
 ![alt text](./Images/img_1.png)
-![alt text](./Images/img_2.png)
-![alt text](./Images/img_3.png)
-![alt text](./Images/img_4.png)
-![alt text](./Images/img_5.png)
 
 ### First Image
 * show landing page of the app
@@ -16,11 +12,21 @@ It provides floating window while solving that is used to mark ans, mark doubtfu
 * Select : Used to set correct ans for questions
 * FW : Checking and Evaluation
 
+![alt text](./Images/img_2.png)
+![alt text](./Images/img_3.png)
+
+
 ### Fourth Image 
 
 * Shows the hovering floating window
 * Z is indicator for Doubt selection
 * and Number is question number
+
+
+![alt text](./Images/img_4.png)
+![alt text](./Images/img_5.png)
+
+
 
 ## Fifth Image
 
